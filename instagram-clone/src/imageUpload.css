@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.imageupload{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  min-width: 400px;
+  min-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-top: 1px solid lightgray;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.progress{
+  width: 80%;
+}
+
+.caption_input{
+  border: none;
+  border-bottom: 1px solid lightgray;
+  height: 20px;
+  width: 80%;
+  outline: none;
+}
